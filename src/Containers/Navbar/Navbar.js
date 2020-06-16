@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Navbar extends Component {
     render() {
         return (
-            <div>
+            <div style={{position:"fixed"}}>
                 <ul className="nav flex-column">
                     <li className="nav-item">
                         <a className="nav-link active" href="#">Active</a>

@@ -8,8 +8,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
-        <RouterManagement />
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-3">
+              <Navbar />
+            </div>
+            <div className="col-md-9">
+              <RouterManagement />
+            </div>
+          </div>
+        </div>
+
+
       </div>
     );
   }
